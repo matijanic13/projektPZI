@@ -1,0 +1,30 @@
+.images {
+    display: flex;
+}
+
+.images img{
+    width: 50%;
+    transition: all 3s ease ;
+    opacity: 0;
+}
+
+.images img.slideFromLeft {
+    transform: translateX(-50%);
+}
+
+.images img.slideFromRight {
+    transform: translateX(50%);
+}
+
+.images img.animated {
+    transform: translateX(0);
+    opacity: 1;
+}
+
+.images1 {
+    display: flex;
+}
+
+.images1 img{
+    width: 50%;
+}
